@@ -10,6 +10,9 @@ def my_select(collection)
   new_array
 end 
 
+#collection[counter]  aka array[index]= pull elements from array
+#yield is a 
+
 #how do i select something that is true/based on boolean parameters?
 #if blank is true then puts blank.true
 
