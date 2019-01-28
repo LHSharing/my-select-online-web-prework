@@ -11,7 +11,8 @@ def my_select(collection)
 end 
 
 #collection[counter]  aka array[index]= pull elements from array
-#yield is a 
+#yield --> num.even on collection counter ---> representing block of code in - each element in the array/spec file.
+
 
 #how do i select something that is true/based on boolean parameters?
 #if blank is true then puts blank.true
