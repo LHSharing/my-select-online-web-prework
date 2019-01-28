@@ -3,8 +3,8 @@ def my_select(collection)
   new_array = []
   while counter < collection.length
     counter += 1 
-    if collection.even? == true
-      new_array << yield(collection.even) 
+    if yield(collection[counter])
+      new_array << collection[counter] 
     end
   end
   new_array
